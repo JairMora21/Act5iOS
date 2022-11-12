@@ -13,6 +13,7 @@
 		FB47546C292014F7005BC780 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FB47546A292014F7005BC780 /* Main.storyboard */; };
 		FB47546E292014FC005BC780 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FB47546D292014FC005BC780 /* Assets.xcassets */; };
 		FB475471292014FC005BC780 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FB47546F292014FC005BC780 /* LaunchScreen.storyboard */; };
+		FB47547C29202751005BC780 /* Game.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB47547B29202751005BC780 /* Game.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		FB47546D292014FC005BC780 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FB475470292014FC005BC780 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		FB475472292014FC005BC780 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FB47547B29202751005BC780 /* Game.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Game.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +61,7 @@
 				FB475464292014F7005BC780 /* AppDelegate.swift */,
 				FB475466292014F7005BC780 /* SceneDelegate.swift */,
 				FB475468292014F7005BC780 /* ViewController.swift */,
+				FB47547B29202751005BC780 /* Game.swift */,
 				FB47546A292014F7005BC780 /* Main.storyboard */,
 				FB47546D292014FC005BC780 /* Assets.xcassets */,
 				FB47546F292014FC005BC780 /* LaunchScreen.storyboard */,
@@ -140,6 +143,7 @@
 				FB475469292014F7005BC780 /* ViewController.swift in Sources */,
 				FB475465292014F7005BC780 /* AppDelegate.swift in Sources */,
 				FB475467292014F7005BC780 /* SceneDelegate.swift in Sources */,
+				FB47547C29202751005BC780 /* Game.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -295,7 +299,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = tecmi.Act5iOS;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 2;
 			};
 			name = Debug;
 		};
@@ -313,7 +317,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = tecmi.Act5iOS;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 2;
 			};
 			name = Release;
 		};
